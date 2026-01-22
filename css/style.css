@@ -1,3 +1,16 @@
-* {
+body {
+  background-image: url("../img/letter.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: bisque;
+}
+
+header {
   font-family: "Cinzel", serif;
+}
+
+main,
+footer {
+  font-family: "Spectral", serif;
 }
