@@ -45,12 +45,11 @@ function requestNEmailAddresses(n, refButtonElement) {
     axios
       .get(apiUrl)
       .then((result) => {
-        li.classList.add("h4");
         li.innerHTML = `<a class="text-decoration-none text-nowrap" href="mailto:${result.data.response}">📨  ${result.data.response}</a>`;
       })
       .catch((error) => {
         console.log(`%cERROR:%c ${error}`, "color: orangered", "");
-        li.classList.remove("h4");
+
         li.textContent = " ❌ " + error;
         li.classList.add("text-warning", "text-opacity-75");
       })

@@ -27,3 +27,13 @@ a {
 a:hover {
   color: #aa987b;
 }
+
+main {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 400px) {
+  main {
+    font-size: 0.6rem !important;
+  }
+}
