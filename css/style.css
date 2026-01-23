@@ -14,3 +14,16 @@ main,
 footer {
   font-family: "Spectral", serif;
 }
+
+ul {
+  list-style-type: none;
+  text-align: justify;
+}
+
+a {
+  color: whitesmoke;
+}
+
+a:hover {
+  color: #aa987b;
+}
