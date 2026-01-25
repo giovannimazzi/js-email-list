@@ -32,6 +32,16 @@ main {
   font-size: 1.5rem;
 }
 
+#bar-container {
+  height: 50px;
+  width: 100%;
+}
+
+#loading-bar {
+  margin-right: auto;
+  width: inherit;
+}
+
 @media (max-width: 400px) {
   main {
     font-size: 0.6rem !important;
